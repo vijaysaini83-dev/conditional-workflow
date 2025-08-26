@@ -21,4 +21,4 @@ describe("MainContent", () => {
     await userEvent.click(button);
     expect(screen.getByTestId("help-area")).toBeInTheDocument();
   });
-});
+}); 
